@@ -12,7 +12,7 @@ define([
     'mageUtils',
     'Magento_Ui/js/modal/alert',
     'Magento_Ui/js/lib/validation/validator',
-    'Techgroup_Addon/js/form/element/abstract',
+    'CatalogManagement_Core/js/form/element/abstract',
     'jquery/file-uploader'
 ], function ($, _, utils, uiAlert, validator, Element) {
     'use strict';
