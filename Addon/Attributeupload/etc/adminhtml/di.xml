@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<type name="Magento\Eav\Model\Adminhtml\System\Config\Source\Inputtype">
+		<plugin name="showFileUploadOptionInAttibuteSection" type="Addon\Attributeupload\Plugin\EavModelAdminhtml\System\Config\Source\Inputtype" />
+	</type>
+
+	<type name="Magento\Catalog\Ui\DataProvider\Product\Form\Modifier\Eav">
+		<plugin name="setupAttributeMeta" type="Addon\Attributeupload\Plugin\Ui\DataProvider\Product\Form\Modifier\Eav" />
+		<plugin name="modifyData" type="Addon\Attributeupload\Plugin\Ui\DataProvider\Product\Form\Modifier\Eav" />
+	</type>
+</config>
